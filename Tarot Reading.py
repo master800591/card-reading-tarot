@@ -47,7 +47,7 @@ def make_celtic_cross_spread():
         speak("")
 
 def load_angels():
-    with open('CSV\Angels.csv', 'r') as csvfile:
+    with open('Angels.csv', 'r') as csvfile:
         reader = csv.DictReader(csvfile, delimiter=';')
         
         for row_index, angel in enumerate(reader, start=1):
